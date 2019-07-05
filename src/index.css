@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.select-box{
+  padding-top: 2px;
+  margin-top: 33px;
+  margin-left: 451px;
+  width: 426px;
+  display: inline-block;
+}
+.butt{
+  width: 202px;
+  margin-bottom: 4px;
+  margin-left: 7px;
+}          
+.heading{
+  margin-top: 40px;
+}
+
+.showNewsMain{
+  background-color: #ededed;
+  width: 850px;
+  display: inline-block;
+  margin: 10px 10px 10px 100px;
+  padding: 21px;
+  background-color: #f7f7f7
+}
+.selectCompoDiv{
+  background-color:grey;
+  padding-top: 12px;
+  height: 120px;
+}
+.latestNewsMain{
+  width: 321px;
+  position: absolute;
+  top: 127px;
+}
+.newsHeading{
+  color:white;
+  font-size: 33px
+}
+.showNewsMainOne{
+  background-color: blue;
+  width: 956px;
+  display: inline-block;
+
+}
+.someName{
+  float: right;
+    display: inline-block;
+}
+.someOther{
+    width: 980px;
+    float: left;
+    display: inline-block;
+}
