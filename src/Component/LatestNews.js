@@ -21,7 +21,7 @@ renderNews(data){
        
         return(
             <div className='latestNewsMain'>
-            {this.props.data && <h4 style={{color:'grey'}}>Top Headlines</h4>}    
+            {this.props.data && <h5 style={{color:'grey'}}>Top Headlines Related to Topic</h5>}    
                 {this.props.data && this.props.data.map(this.renderNews)}  
             </div>
         )
