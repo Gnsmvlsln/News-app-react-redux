@@ -4,7 +4,7 @@ import img from '../loading_spinner.gif'
 let Loading = ({ loading }) => (
 loading ?
 <div style={{ textAlign: 'center' }}>
-   <img src={img} alt='loading' height='170px' />
+   <img src={img} alt='loading' height='120px' />
 </div> :
 null
 );

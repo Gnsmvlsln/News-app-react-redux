@@ -29,12 +29,12 @@ code {
 }
 
 .showNewsMain{
-  background-color: #ededed;
+  /* background-color: #ededed; */
   width: 850px;
   display: inline-block;
   margin: 10px 10px 10px 100px;
   padding: 21px;
-  background-color: #f7f7f7
+  background-color: #d4d4d4;
 }
 .selectCompoDiv{
   background-color:grey;

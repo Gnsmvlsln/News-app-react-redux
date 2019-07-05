@@ -43,6 +43,7 @@ class SelectComponent extends Component{
              className='select-box'
            />
            <button className=' butt btn btn-info' onClick={this.onclick}>Click here for latest news</button>
+           
             </div>       
         )
     }

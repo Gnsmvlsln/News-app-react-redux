@@ -28,7 +28,7 @@ renderNews(data){
         return(
            
             <div className='someOther'>
-                {this.props.data && this.props.data.map(this.renderNews)}  
+                {this.props.data ? this.props.data.map(this.renderNews) :<div style={{paddingTop:'160px',paddingLeft: '325px',color:' #c4c2c2'}}><h3>Use above search box for latest news on your topic.</h3></div>}  
                 <div className="someName">
                 <LatestNews/>
             </div>
